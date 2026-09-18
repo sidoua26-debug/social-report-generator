@@ -1,0 +1,14 @@
+{
+  "name": "social-report-generator",
+  "version": "1.0.0",
+  "description": "Instagram Analytics CSV to Branded Client Performance Report Generator",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "test:parser": "npm run test:parser --prefix server",
+    "build:client": "npm run build --prefix client"
+  }
+}

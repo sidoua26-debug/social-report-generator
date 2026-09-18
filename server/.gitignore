@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+database.sqlite
+database.sqlite-journal
+uploads/*
+!uploads/.gitkeep
+node_modules/
+*.log
