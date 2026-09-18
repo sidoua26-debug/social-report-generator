@@ -18,5 +18,8 @@
     "jsonwebtoken": "^9.0.2",
     "dotenv": "^16.4.7",
     "@google/genai": "^2.23.0"
+  },
+  "allowScripts": {
+    "sqlite3@5.1.7": true
   }
 }

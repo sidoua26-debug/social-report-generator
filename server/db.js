@@ -1,5 +1,6 @@
+const path = require('path');
 const fs = require('fs');
-
+const sqlite3 = require('sqlite3').verbose();
 const dbPath = process.env.SQLITE_PATH || path.join(__dirname, 'database.sqlite');
 
 // Ensure database directory exists (vital when mounting persistent volumes in production)
